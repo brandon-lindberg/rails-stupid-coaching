@@ -1,4 +1,14 @@
-<form action="/answer" method="get">
-  <input type="text" name="question" value="<%params[:question]%>">
-  <input type="submit" value="Ask!">
-</form>
+
+<div class="question">
+  <h1>Gots any Questions for Coach Steve?</h1>
+
+  <div class="container">
+    <div class="card" id="ask">
+      <form action="/answer" method="get">
+        <input type="text" name="question" value="<%params[:question]%>">
+        <input type="submit" value="Ask!">
+      </form>
+    </div>
+  </div>
+
+</div>

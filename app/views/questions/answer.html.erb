@@ -1,7 +1,16 @@
-<h1>Gots any Questions for Coach Steve?</h1>
 
-<p><%= @question %></p>
-<p>-You</p>
+<div class="banner">
+  <h1>Gots any Questions for Coach Steve?</h1>
+</div>
 
-<p><%= @answer %></p>
-<p>-Coach Steve</p>
+<div class="container">
+  <div class="card" id="question">
+    <p><%= @question %></p>
+    <p>-You</p>
+  </div>
+
+  <div class="card" id="answer">
+    <p><%= @answer %></p>
+    <p>-Coach Steve</p>
+  </div>
+</div>
